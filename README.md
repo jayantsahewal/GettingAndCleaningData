@@ -5,7 +5,7 @@ This repo contains the peer assignment for the course Getting and Cleaning Data 
 --------
 This repo contains the following files:
 
-##### README.cmd:
+##### README.md:
   This file contains all the required information about this repository.
   * Author: Jayant Sahewal
   * Date: Apr-19-2014
@@ -18,12 +18,6 @@ This repo contains the following files:
 * Appropriately labels the data set with descriptive activity names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##### merged.txt
-  first dataset created which consists of a combination of the original test, training and subject data
-##### tidy.txt
-  tidy dataset created as the final step as mentioned above in the run_analysis.R description
-##### tidy_std_mean.txt
-  dataset which consists of above dataset but with only a subset of measures involving the mean or standard deviations.   This is an OPTIONAL output of run_anlaysis.R. Please read the instructions in run_analysis.R to do so.
 ##### codebook.md
   the description of resulting datasets, variables, transformations etc.
 
@@ -31,8 +25,8 @@ This repo contains the following files:
 
 To reproduce the tidy datasets, please do the following:
 
-1. Download the zipped file in your working directory from the following URL.                                 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+1. Download the zipped file in your working directory from the following URL.                               https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 A full description of the source data can be found at the site below:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-2. Run run_anlaysis.R in your working directory where you downloded data in step 1
+2. Run run_anlaysis.R in your working directory where you downloded data
